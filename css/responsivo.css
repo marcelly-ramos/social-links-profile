@@ -1,0 +1,35 @@
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        max-width: 60%; 
+        margin-top: 20px;
+    }
+
+    .profile-picture {
+        width: 100px;
+        height: 100px;
+        margin: 20px auto 10px;
+    }
+
+    .profile-name {
+        font-size: 20px;
+    }
+
+    .profile-location {
+        font-size: 12px;
+    }
+
+    .profile-description {
+        font-size: 11px;
+    }
+
+    .social-link {
+        padding: 7px;
+        font-size: 12px;
+    }
+}
